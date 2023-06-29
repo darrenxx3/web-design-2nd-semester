@@ -1,0 +1,11 @@
+#content {
+    display: block;
+    background-color: aqua;
+}
+article{
+    float: right;
+    width: 33.333%;
+}
+.clear{
+    clear: both;
+}

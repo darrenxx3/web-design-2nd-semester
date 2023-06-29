@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.normal{
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid #000;
+}
+.rounded{
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 2px dotted red;
+    /* border-radius: 50px; */
+    /* border-radius: 50px 50px; */
+    border-radius: 10px 10px 10px 10px;
+}
+.hover-btn{
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.hover-btn:hover{
+    background-color: aqua;
+    border: 5px solid #000;
+}
+.pointer-btn{
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 2px solid #000;
+    cursor: pointer;
+}

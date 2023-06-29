@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week6</title>
+    <link rel = "stylesheet" href = "styleW6.css"/>
+
+    <style>
+        .tambahan {
+            border: 1px solid #000;
+            border-radius: 2px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat Board</h1>
+    <div id="up">
+        <div>Nama: </div>
+
+   
+    <input type="text" id="nama">  
+        <div>Chat:</div>
+    <textarea type="text" id="dataInput" cols=" 146" rows=" 5">
+    </textarea>
+    <br></br>    
+    
+    <button id="tambah-data">Send</button>
+    <br></br> 
+
+    
+
+    <button id="hide-data">Clear!</button></br> 
+    <br></br> 
+    <div id="hasilData">
+
+    </div>
+    <p id="data-hide">
+        
+    </p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // Nambahin data
+            $("#tambah-data").click(function(){
+                // Ngambil data dari dataInput
+                let textInput = $("#dataInput").val();
+                let textNama = $("#nama").val();
+                // Validasi apakah textInput kosong atau tidak
+                if(textInput == "" || typeof textInput == "undefined"){
+                    alert("Please complete the chat form");
+                    return;
+                }
+                if(textNama == "" || typeof textNama == "undefined"){
+                    alert("Please Enter your name");
+                    return;
+                }
+                // Nambahin hasilnya ke #hasilData
+                $("#hasilData").append("<div class=\"tambahan\"><b>" + textNama + "</b><br>"+textInput +"</div>");
+                // Bersihin text input dari text terakhir
+                $("#dataInput").val("");
+                $("#nama").val("");
+            })
+            // Show data
+            $("#show-data").click(function(){
+                $("#hasilData").show();
+            })
+            // Hide data
+            $("#hide-data").click(function(){
+                $("#hasilData").hide()
+                // Clear all data inside hasil data
+                $("#hasilData").html("")
+            })
+            
+        })
+        
+    </script>
+</body>
+</html>

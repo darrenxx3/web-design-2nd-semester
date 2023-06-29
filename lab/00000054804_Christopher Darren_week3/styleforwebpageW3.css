@@ -1,0 +1,220 @@
+body{
+    /*margin: 0;
+    font-family: arial;
+    font-size: 15px;
+    line-height: 18px;*/
+}
+
+#desainweb{
+    margin-top: 30px;
+    width: 1100px;/*ukuran dari layout web yang akan digunakan*/
+    color: grey;
+    font-family:  arial;
+    background: #f5f5f5;
+    margin: 0px auto 0;
+    overflow: hidden;
+    
+}
+
+#logo img{
+    height: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+/*nav = navigasi home menu button*/
+nav {
+    float: left;
+    margin-top: 20px/*jarak dari logo umn ke menu*/
+}
+
+nav ul{
+    background-color: rgb(87, 87, 87);
+    width: 960px;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: auto;
+    margin-left: 20px;
+    padding-top: 14.8px;
+    margin-right: 45px;/*jarak menu button satu dengan yang lainnya. */
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+nav ul li a:hover{
+    background-color: rgb(71, 68, 68);/*warna text menu kotaknya*/
+    padding-bottom: 10px;
+    
+}
+
+.judultengah{
+    text-align: center;
+    padding: 80px;
+    padding-right: 250px;
+    font-size: 22px;
+    color: #666666;
+}
+
+
+
+h2{
+    color: #666666;
+    padding-top: -30px;
+}
+
+p{/*paragraf*/
+    color: #666666;
+}
+
+h2{
+    color: #666666;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10 px;
+    float: left;
+    width: 670px;
+    font-size: 15px;
+}
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10 px;
+    float: right;
+    width: 300px;
+    font-size: 15px;
+    
+}
+
+#item2{
+    flex: 1px;
+    flex-direction: column;
+    float: right;
+}
+#sidebar{
+    width: 250px;
+}
+
+#search-box {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    }
+    
+    #search-form 
+    {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    }
+    
+    #search-text 
+    {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+    }
+    
+    #search-box input[type="text"]
+    {
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+    }
+    
+    #search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 30px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color:#000000;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    }
+button{
+    padding: 4px 5px;
+    margin-top: 7px;
+    background-color: #88b3fc;/*warna tombol*/
+    border: 1px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+    color:#666666;
+    margin-right: -34px;
+    padding: 8px 12px;
+    background-color: #88b3fc;
+    border: 1px solid #000;/*ketebalan garis*/
+    border-radius: 5px;
+    font-weight: bold;
+    
+   
+    background-color: aquamarine;
+    cursor: pointer;/*menampilkan kursor tangan apabila diarahkan ke tombol*/
+
+    background-color:#88b3fc;
+   
+}
+
+#item3{
+    list-style-type: circle;
+    font-color: Gray;
+    font-size: 20px;
+    border-bottom: 1px dashed #666666;
+}
+
+#item4{
+    font-size: 22px;
+    border-bottom: 1px dashed #666666;
+}
+
+#item5{
+    font-size: 30px;
+    border-bottom: 1px dashed #666666;
+}
+
+p6{
+    font-size: 15px;
+}
+footer{
+    background: rgb(44, 44, 44);/*backgroun warna boxnya*/
+    clear:both;
+    width: 910px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    text-align: left;
+    margin-top: 10px;
+    color:#666666;
+    font-family: Georgia;
+    /*ngebuat garis bawah*/
+    
+}

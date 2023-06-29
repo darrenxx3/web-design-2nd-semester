@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pad {
+    padding: 40px 50px;
+}
+input{
+    background-color: azure;
+    padding: 10px 20px;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+}
+input::placeholder{
+    color: blue;
+}

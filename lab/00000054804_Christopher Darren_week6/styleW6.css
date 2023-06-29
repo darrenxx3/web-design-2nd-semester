@@ -1,0 +1,15 @@
+input{/*ini adalah editan untuk textboxt*/
+    background-color: white;
+    padding: 10px 80px;
+    display: block;
+    margin-bottom: 20px;
+    border: 0.1px solid #000;
+    border-radius: 0.1px;
+    width: 1000px;
+    color: black;/*warna ketikan input dari penggunan yg akan tampil*/
+    padding-left: 10px;/*name dan email geser */   
+}
+
+body{
+    background-color: silver;
+}

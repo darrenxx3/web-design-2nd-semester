@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    font-family: arial;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#desain{
+    width: 900px;/*ukuran dari layout web yang akan digunakan*/
+    margin: 25px auto 0;
+    overflow: hidden;
+}
+
+#logo_textatas {
+    float: right;
+}
+
+#logo img{
+    height: 50px;
+}
+
+#BANNER img{
+    margin-top: 5px;
+    padding-bottom: 5px;/*jarak dari banner ke garis bawah*/
+    border-bottom: 1.8px solid #333333;
+    clear:both;
+}
+
+/*nav = navigasi home menu button*/
+nav {
+    float: left;
+    margin-top: 50px
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-top: 15px;
+    color: #333333;
+}
+
+nav ul li a:hover{
+    border-bottom: 5px solid;
+}
+
+#icecream {
+    background: #eeeeee;
+    padding: 38px 0;
+}
+
+#icecream .box1{/*template ukuran gambar*/
+    width: 245px;
+    display: inline-block;
+    margin: 0 26px;
+}
+
+h1{/*judul / header*/
+    color: #666666;
+}
+
+p{/*paragraf*/
+    color: #666666;
+}
+
+p2{
+    color: #0da0e9;
+}
+
+p3{
+    color:blue;
+    padding: 0;
+    margin:0;
+}
+
+h2{
+    color: #666666;
+    
+}
+
+.pad {
+    padding: 40px 50px;
+}
+input{/*ini adalah editan untuk textboxt*/
+    background-color: #ecebeb;
+    padding: 10px 80px;
+    display: block;
+    margin-bottom: 20px;
+    border: 0.1px solid #000;
+    border-radius: 0.1px;
+    color:red;/*warna ketikan input dari penggunan yg akan tampil*/
+    padding-left: 10px;/*name dan email geser */   
+}
+
+input::placeholder{
+    color: #0da0e9;/*warna text didalam textboxt(nantinya ada placeholder)*/
+}
+
+button{
+    padding: 4px 5px;
+    margin-top: 7px;
+    background-color: #88b3fc;/*warna tombol*/
+    border: 1px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+    color:#666666;
+    margin-right: -34px;
+    padding: 8px 12px;
+    background-color: #88b3fc;
+    border: 1px solid #000;/*ketebalan garis*/
+    border-radius: 5px;
+    font-weight: bold;
+   
+    background-color: aquamarine;
+    cursor: pointer;/*menampilkan kursor tangan apabila diarahkan ke tombol*/
+
+    background-color:#88b3fc;
+   
+}
+
+.column{
+    float:left;
+    width: 26.30%;/*jarak antar ke3 kolum*/
+    padding: 31px;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+footer{
+    clear:both;
+    border-top: 1px solid #666666;
+    padding: 25px;
+    text-align: center;
+    margin-top: 2px;
+    color:#666666;
+    border-bottom: 15px solid #4cb2e5;/*ngebuat garis bawah*/
+    
+}

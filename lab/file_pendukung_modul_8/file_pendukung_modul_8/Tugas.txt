@@ -1,0 +1,12 @@
+Buatlah Aplikasi sederhana seperti contoh yang diberikan dikelas untuk melakukan operasi CRUD data kampus dengan informasi database seperti berikut:
+
+nama database: unimedia_senin
+nama tabel: kampus
+kolom:
+
+id INT PRIMARY AUTO_INCREMENT
+nama VARCHAR(50)
+alamat VARCHAR(255)
+telepon VARCHAR(20)
+
+Kumpulkan semua file PHP yang dibuat dalam sebuah file ZIP.
